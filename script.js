@@ -1,4 +1,11 @@
 function indexOfIgnoreCase(s1, s2) {
+	 const lowerS1 = s1.toLowerCase();
+    const lowerS2 = s2.toLowerCase();
+    
+    // Use indexOf to find the first occurrence of s2 in s1
+    return lowerS1.indexOf(lowerS2);
+
+	
   // write your code here
 }
 
